@@ -1,3 +1,3 @@
-# Kattis in Java ![alt text](https://github.com/robalascott/Kattis/site-logo.png?raw=true "Title")
+# Kattis in Java 
 Kattis work Area/Sandbox
 https://open.kattis.com/
