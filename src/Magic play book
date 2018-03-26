@@ -1,0 +1,4 @@
+Question I have searched tooo many time but never learn
+One -> Splitting a string by whitespace
+String textStr[] = yourString.split("\\s+");
+
