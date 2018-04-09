@@ -2,3 +2,8 @@ Question I have searched tooo many time but never learn
 One -> Splitting a string by whitespace
 String textStr[] = yourString.split("\\s+");
 
+You need to investigate Lists.newArrayList vs new ArrayLists
+--> Something about overloading the constructor 
+--> and dealing with generic types 
+
+ 
