@@ -1,9 +1,10 @@
-Question I have searched tooo many time but never learn
+Question I have searched tooo many time but never learnt
 One -> Splitting a string by whitespace
 String textStr[] = yourString.split("\\s+");
 
-You need to investigate Lists.newArrayList vs new ArrayLists
+You need to investigate Lists.newArrayList vs new ArrayLists<String>
 --> Something about overloading the constructor 
 --> and dealing with generic types 
 
- 
+ -> lamba on int[] to sum of
+ int sum = Arrays.stream(queue).reduce(0, Integer::sum); 

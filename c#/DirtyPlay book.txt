@@ -1,0 +1,8 @@
+How to remove the first object from array and create a new list so you can us foreach
+arr = arr.Skip(1).ToArray();  
+
+
+
+string dir = @"C:\Users\robscott\Desktop\Kattis\c#\Kattis\Res\";
+            string name = "odd.txt";
+            string[] lines = ReadFile(dir,name);
