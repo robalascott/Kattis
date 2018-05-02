@@ -1,8 +1,33 @@
 How to remove the first object from array and create a new list so you can us foreach
 arr = arr.Skip(1).ToArray();  
 
+To stop exit direct use
+Console.WriteLine("Press any key to exit.");
+System.Console.ReadKey();
 
 
-string dir = @"C:\Users\robscott\Desktop\Kattis\c#\Kattis\Res\";
-            string name = "odd.txt";
-            string[] lines = ReadFile(dir,name);
+What is virtual property?? need to read
+EX public virtual int v;
+
+//Read about out and Math.Div
+value = Math.DivRem(value, 10, out rem);
+
+
+//Gets the sum value of Digits and put them together 
+  private static int SumOf(int value)
+   {
+            int sum = 0;
+            while (value != 0)
+            {
+                int rem;
+                value = Math.DivRem(value, 10, out rem);
+                sum += rem;
+            }
+            return sum;
+   }
+Double int array
+int[,] array = new int[4, 2];
+
+//It like an object
+Touples 
+Private List<(Person,Relationship,Person)> relations
